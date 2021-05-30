@@ -4,58 +4,47 @@
   box-sizing: border-box;
   font-size: 100%;
 }
-html {
-  height: 100%;
-}
-body {
-  height: 100%;
+html,body {
   font-family: 'Barlow', sans-serif;
   color: #4D4D4D;
   text-align: center;
   background-color: white;
+  background-size: cover;
 }
-.profile-card {
+.head{
   background-color: #7F6C72;
 }
-.headline{
-  margin-left: 30%;
-  margin-right: 30%;
+.welcome {
+  background-color: #7F6C72;
+  padding-top: 5%;
+  padding-bottom: 2%;
 }
 .content{
-  margin-top: 5%;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-bottom: 5%;
-  border-left: 4px solid #7F6C72;
+  margin-top: 2%;
 }
 .about .interests{
-  width: 90%;
-  margin-left: 10%;
   padding: 2%;
 }
 .social-icon {
   color: #7F6C72;
   padding: 1.5%;
+  cursor: pointer;
 }
 #picture {
-  width: 12vmax;
+  max-width: 6.5vmax;
   box-shadow: 10px 10px 5px #4D4D4D;
-  float: left;
-  margin-left: 15%;
-  margin-top: 8vmax;
-  transform: rotate(-10deg);
-  filter: blur(3px) grayscale(100%);
+  transform: rotate(0deg);
+  filter: blur(2px) grayscale(100%);
+  margin-bottom: 1%;
+  margin-top: 1%;
 }
 #picture:hover{
   transition: all 0.5s ease-in-out;
-  transform: scale(1.8);
+  transform: scale(2.2);
   filter: blur(0px) grayscale(10%);
-}
-#hello{
-  margin-top: 15%;
-  width: 20%;
-  margin-left: 40%;
-  margin-right: 40%;
 }
 #sign{
   width: 12vmax;
@@ -63,23 +52,25 @@ body {
   margin-left: 50%;
 }
 hr{
-  border-top: 4px solid #4D4D4D;
+  border-top: 2px solid #4D4D4D;
   border-bottom: #7F6C72;
   border-left: #7F6C72;
   border-right: #7F6C72;
-  width: 80%;
-  margin-left: 10%;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 summary{
   background: #7F6C72;
-  border-radius: 10px;
+  border-radius: 12px;
   color: white;
   padding-top: 1%;
   padding-bottom: 1%;
   font-size: 1.5vmax;
   font-style: italic;
-  margin-left: -2%;
-  margin-right: 70%;
+  margin-left: 36%;
+  margin-right: 36%;
+  cursor: pointer;
 }
 ul {
   list-style-type: none;
@@ -92,18 +83,16 @@ li {
   text-indent: 30px;
 }
 h1{
-  text-transform: ;
-  font-size: 3.5vmax;
+  font-size: 3vmax;
   color: white;
 }
 h2{
-  font-size: 2.5vmax;
+  font-size: 2vmax;
   color: #CB98A8;
 }
 h3{
-  font-size: 1vmax;
-  padding: 1vmax;
-  color: #CB98A8;
+  font-size: 1.2vmax;
+  color: white;
 }
 p{
   font-size: 1.5vmax;
@@ -129,8 +118,7 @@ table{
   text-align: center;
   margin-left: 40%;
   margin-right: 40%;
-  margin-bottom: 5%;
-  font-size: 1.5vmax;
+  font-size: 1.3vmax;
 }
 footer{
 
